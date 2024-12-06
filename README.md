@@ -50,6 +50,15 @@ Pines del Arduino conectados al driver:
 
 ---
 
+## **Prueba y ajustes**
+1. Calibrar Sensores: Ajusta el umbral para detectar correctamente la línea.
+2. Optimización del Controlador: Ajusta la constante proporcional Kp para evitar oscilaciones y mejorar la estabilidad.
+3. Pruebas Dinámicas: Evalúa el rendimiento en distintas trayectorias (curvas, bifurcaciones, etc.).
+
+
+
+
+
 ## **Código**
 
 ### **Ejemplo: Controlador Proporcional**
@@ -118,3 +127,4 @@ void moverMotor(int enable, int in1, int in2, int velocidad) {
   }
   analogWrite(enable, constrain(velocidad, 0, 255));
 }
+
