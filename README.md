@@ -1,5 +1,3 @@
-# Crear README.md automáticamente
-readme_text = """\
 # **Robot Seguidor de Líneas**
 
 Este proyecto implementa un robot seguidor de líneas basado en un Arduino Nano, 6 sensores CNY70, motores Pololu y un driver de motores. El robot utiliza un algoritmo de control para seguir de forma eficiente una línea negra sobre un fondo blanco.
